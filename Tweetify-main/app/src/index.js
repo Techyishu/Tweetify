@@ -1,5 +1,5 @@
-import { getEnvVars } from './config/env.js';
-import { initBot } from './bot.js';
+import { getEnvVars } from './src/env.js';
+import { initBot } from './telegram/bot.js';
 
 try {
   getEnvVars();
